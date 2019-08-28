@@ -1,0 +1,8 @@
+GET REGION ID
+https://www.redfin.com/stingray/do/location-autocomplete?location=arlington%20heights,%20IL&start=0&count=10&v=2&al=3&iss=true&ooa=true&boostParams=1_1_1517873&boostParams=1_1_2112079&boostParams=1_1_1287056&mrs=false
+
+GET LISTINGS
+https://www.redfin.com/stingray/api/gis?al=1&market=chicago&num_homes=2&ord=redfin-recommended-asc&page_number=1&region_id=29458&region_type=6&start=0&status=9&uipt=1,2,3,4,5,6&v=8
+
+LISTING DETAILS
+https://www.redfin.com/stingray/api/home/details/belowTheFold?propertyId=21865231&accessLevel=3&listingId=106960221&pageType=1

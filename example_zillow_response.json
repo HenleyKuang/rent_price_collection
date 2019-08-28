@@ -1,0 +1,3380 @@
+{
+    "queryState": {
+    "mapZoom": 11,
+    "regionSelection": [
+    {
+    "regionId": 50764,
+    "regionType": 6
+    }
+    ],
+    "mapBounds": {
+    "west": -88.11190230485462,
+    "east": -87.85950969514536,
+    "north": 42.22209030485463,
+    "south": 41.96969769514537
+    },
+    "isMapVisible": true,
+    "usersSearchTerm": "Arlington Heights, IL",
+    "filterState": {
+    "isForSaleByOwner": {
+    "value": false
+    },
+    "isPreMarketForeclosure": {
+    "value": false
+    },
+    "isMakeMeMove": {
+    "value": false
+    },
+    "isForSaleForeclosure": {
+    "value": false
+    },
+    "isForSaleByAgent": {
+    "value": false
+    },
+    "isNewConstruction": {
+    "value": false
+    },
+    "isPreMarketPreForeclosure": {
+    "value": false
+    },
+    "sortSelection": {
+    "value": "days"
+    },
+    "isComingSoon": {
+    "value": false
+    },
+    "isForRent": {
+    "value": true
+    }
+    }
+    },
+    "filterDefinitions": {
+    "keywords": {
+    "id": "keywords",
+    "labels": {
+    "default": "Keywords"
+    },
+    "sortOrder": 2,
+    "type": "String",
+    "defaultValue": {
+    "value": ""
+    },
+    "exposedPillEnabled": true
+    },
+    "isPublicSchool": {
+    "id": "isPublicSchool",
+    "labels": {
+    "default": "Public"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isCityView": {
+    "id": "isCityView",
+    "labels": {
+    "default": "City",
+    "tracking": "City View"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isWaterfront": {
+    "id": "isWaterfront",
+    "labels": {
+    "default": "Waterfront"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isCondo": {
+    "id": "isCondo",
+    "labels": {
+    "default": "Condos/co-ops"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isMountainView": {
+    "id": "isMountainView",
+    "labels": {
+    "default": "Mountain",
+    "tracking": "Mountain View"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "singleStory": {
+    "id": "singleStory",
+    "labels": {
+    "default": "Single-story only",
+    "tracking": "Single Story",
+    "valueFormatter": {
+    "true": "1 story"
+    }
+    },
+    "sortOrder": 8,
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    },
+    "exposedPillEnabled": true
+    },
+    "onlyRentalParkingAvailable": {
+    "id": "onlyRentalParkingAvailable",
+    "labels": {
+    "default": "On-site Parking"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "monthlyPayment": {
+    "id": "monthlyPayment",
+    "labels": {
+    "default": "Price",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "${{min}}+",
+    "max": "Up to ${{max}}",
+    "minMax": "${{min}}-${{max}}",
+    "identicalMinMax": "${{min}}",
+    "numberFormatter": "0,0",
+    "inputFormatter": "0.[0]a"
+    }
+    },
+    "sortOrder": 1,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": [
+    {
+    "label": "$200",
+    "value": 200
+    },
+    {
+    "label": "$400",
+    "value": 400
+    },
+    {
+    "label": "$600",
+    "value": 600
+    },
+    {
+    "label": "$800",
+    "value": 800
+    },
+    {
+    "label": "$1,000",
+    "value": 1000
+    },
+    {
+    "label": "$1,200",
+    "value": 1200
+    },
+    {
+    "label": "$1,400",
+    "value": 1400
+    },
+    {
+    "label": "$1,600",
+    "value": 1600
+    },
+    {
+    "label": "$1,800",
+    "value": 1800
+    },
+    {
+    "label": "$2,000",
+    "value": 2000
+    },
+    {
+    "label": "$2,200",
+    "value": 2200
+    },
+    {
+    "label": "$2,400",
+    "value": 2400
+    },
+    {
+    "label": "$2,600",
+    "value": 2600
+    },
+    {
+    "label": "$2,800",
+    "value": 2800
+    },
+    {
+    "label": "$3,000",
+    "value": 3000
+    },
+    {
+    "label": "$3,500",
+    "value": 3500
+    },
+    {
+    "label": "$4,000",
+    "value": 4000
+    },
+    {
+    "label": "$4,500",
+    "value": 4500
+    },
+    {
+    "label": "$5,000",
+    "value": 5000
+    },
+    {
+    "label": "$5,500",
+    "value": 5500
+    },
+    {
+    "label": "$6,000",
+    "value": 6000
+    },
+    {
+    "label": "$7,000",
+    "value": 7000
+    },
+    {
+    "label": "$8,000",
+    "value": 8000
+    },
+    {
+    "label": "$9,000",
+    "value": 9000
+    },
+    {
+    "label": "$10,000",
+    "value": 10000
+    }
+    ],
+    "exposedPillEnabled": false
+    },
+    "price": {
+    "id": "price",
+    "labels": {
+    "default": "Price",
+    "long": "Price Range",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "${{min}}+",
+    "max": "Up to ${{max}}",
+    "minMax": "${{min}}-${{max}}",
+    "identicalMinMax": "${{min}}",
+    "numberFormatter": "0,0",
+    "inputFormatter": "0.[0]a"
+    }
+    },
+    "sortOrder": 1,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": [
+    {
+    "label": "$100,000",
+    "value": 100000
+    },
+    {
+    "label": "$200,000",
+    "value": 200000
+    },
+    {
+    "label": "$300,000",
+    "value": 300000
+    },
+    {
+    "label": "$400,000",
+    "value": 400000
+    },
+    {
+    "label": "$500,000",
+    "value": 500000
+    },
+    {
+    "label": "$600,000",
+    "value": 600000
+    },
+    {
+    "label": "$700,000",
+    "value": 700000
+    },
+    {
+    "label": "$800,000",
+    "value": 800000
+    },
+    {
+    "label": "$900,000",
+    "value": 900000
+    },
+    {
+    "label": "$1M",
+    "value": 1000000
+    },
+    {
+    "label": "$1.25M",
+    "value": 1250000
+    },
+    {
+    "label": "$1.5M",
+    "value": 1500000
+    },
+    {
+    "label": "$1.75M",
+    "value": 1750000
+    },
+    {
+    "label": "$2M",
+    "value": 2000000
+    },
+    {
+    "label": "$2.25M",
+    "value": 2250000
+    },
+    {
+    "label": "$2.5M",
+    "value": 2500000
+    },
+    {
+    "label": "$2.75M",
+    "value": 2750000
+    },
+    {
+    "label": "$3M",
+    "value": 3000000
+    },
+    {
+    "label": "$4M",
+    "value": 4000000
+    },
+    {
+    "label": "$5M",
+    "value": 5000000
+    },
+    {
+    "label": "$6M",
+    "value": 6000000
+    },
+    {
+    "label": "$7M",
+    "value": 7000000
+    },
+    {
+    "label": "$8M",
+    "value": 8000000
+    },
+    {
+    "label": "$9M",
+    "value": 9000000
+    },
+    {
+    "label": "$10M",
+    "value": 10000000
+    }
+    ],
+    "exposedPillEnabled": false
+    },
+    "onlyPriceReduction": {
+    "id": "onlyPriceReduction",
+    "labels": {
+    "default": "Price Reduction"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "onlyRentalAcceptsApplications": {
+    "id": "onlyRentalAcceptsApplications",
+    "labels": {
+    "default": "Accepts Zillow Applications"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "SEOTypedIdField": {
+    "id": "SEOTypedIdField",
+    "labels": {
+    "default": "SEO"
+    },
+    "defaultValue": {
+    "value": null,
+    "field": null,
+    "id": null
+    }
+    },
+    "sqft": {
+    "id": "sqft",
+    "labels": {
+    "default": "Square Feet",
+    "short": "Sqft",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "{{min}}+",
+    "max": "<{{max}}",
+    "minMax": "{{min}}-{{max}}",
+    "identicalMinMax": "{{min}}",
+    "numberFormatter": "0,0",
+    "inputFormatter": "0,0"
+    }
+    },
+    "sortOrder": 4,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": [
+    {
+    "label": "500",
+    "value": 500
+    },
+    {
+    "label": "750",
+    "value": 750
+    },
+    {
+    "label": "1,000",
+    "value": 1000
+    },
+    {
+    "label": "1,250",
+    "value": 1250
+    },
+    {
+    "label": "1,500",
+    "value": 1500
+    },
+    {
+    "label": "1,750",
+    "value": 1750
+    },
+    {
+    "label": "2,000",
+    "value": 2000
+    },
+    {
+    "label": "2,250",
+    "value": 2250
+    },
+    {
+    "label": "2,500",
+    "value": 2500
+    },
+    {
+    "label": "2,750",
+    "value": 2750
+    },
+    {
+    "label": "3,000",
+    "value": 3000
+    },
+    {
+    "label": "3,500",
+    "value": 3500
+    },
+    {
+    "label": "4,000",
+    "value": 4000
+    },
+    {
+    "label": "5,000",
+    "value": 5000
+    },
+    {
+    "label": "7,500",
+    "value": 7500
+    }
+    ],
+    "exposedPillEnabled": true
+    },
+    "isForRent": {
+    "id": "isForRent",
+    "labels": {
+    "default": "For Rent"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isForSaleByOwner": {
+    "id": "isForSaleByOwner",
+    "labels": {
+    "default": "By Owner"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "hasAirConditioning": {
+    "id": "hasAirConditioning",
+    "labels": {
+    "default": "Must have A/C",
+    "tracking": "AC"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "sortSelection": {
+    "id": "sortSelection",
+    "labels": {
+    "default": "Sort",
+    "valueFormatter": {
+    "saved": "Date Saved",
+    "listingstatus": "Listing Status",
+    "mostrecentchange": "Most Recent Change",
+    "globalrelevanceex": "Homes for You",
+    "featured": "Verified Source",
+    "priced": "Price (High to Low)",
+    "pricea": "Price (Low to High)",
+    "paymentd": "Payment (High to Low)",
+    "paymenta": "Payment (Low to High)",
+    "days": "Newest",
+    "beds": "Bedrooms",
+    "baths": "Bathrooms",
+    "size": "Square Feet",
+    "lot": "Lot Size",
+    "zest": "Zestimate (High to Low)",
+    "zesta": "Zestimate (Low to High)"
+    }
+    },
+    "type": "Enum",
+    "defaultValue": {
+    "value": "globalrelevanceex"
+    },
+    "allowedValues": {
+    "saved": "saved",
+    "listingstatus": "listingstatus",
+    "mostrecentchange": "mostrecentchange",
+    "globalrelevanceex": "globalrelevanceex",
+    "featured": "featured",
+    "priced": "priced",
+    "pricea": "pricea",
+    "paymentd": "paymentd",
+    "paymenta": "paymenta",
+    "days": "days",
+    "beds": "beds",
+    "baths": "baths",
+    "size": "size",
+    "lot": "lot",
+    "zest": "zest",
+    "zesta": "zesta"
+    }
+    },
+    "isMiddleSchool": {
+    "id": "isMiddleSchool",
+    "labels": {
+    "default": "Middle"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyCondoBuildings": {
+    "id": "onlyCondoBuildings",
+    "labels": {
+    "default": "Condo Building Search"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isWaterView": {
+    "id": "isWaterView",
+    "labels": {
+    "default": "Water",
+    "tracking": "Water View"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isPrivateSchool": {
+    "id": "isPrivateSchool",
+    "labels": {
+    "default": "Private"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyRentalIncomeRestricted": {
+    "id": "onlyRentalIncomeRestricted",
+    "labels": {
+    "default": "Income restricted and Community Pillar"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isManufactured": {
+    "id": "isManufactured",
+    "labels": {
+    "default": "Manufactured"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyRentalInUnitLaundry": {
+    "id": "onlyRentalInUnitLaundry",
+    "labels": {
+    "default": "In-unit Laundry"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isComingSoon": {
+    "id": "isComingSoon",
+    "labels": {
+    "default": "Coming Soon"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isSingleFamily": {
+    "id": "isSingleFamily",
+    "labels": {
+    "default": "Houses"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyCheapApartments": {
+    "id": "onlyCheapApartments",
+    "labels": {
+    "default": "Cheap Apartments Search"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isForSaleForeclosure": {
+    "id": "isForSaleForeclosure",
+    "labels": {
+    "default": "Foreclosures"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isHighSchool": {
+    "id": "isHighSchool",
+    "labels": {
+    "default": "High"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyWithPhotos": {
+    "id": "onlyWithPhotos",
+    "labels": {
+    "default": "Photos"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "hoa": {
+    "id": "hoa",
+    "labels": {
+    "default": "Max HOA",
+    "valueFormatter": {
+    "none": "Any",
+    "max": "${{max}}/month"
+    }
+    },
+    "sortOrder": 9,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": {
+    "Any": null,
+    "$100/month": 100,
+    "$200/month": 200,
+    "$300/month": 300,
+    "$400/month": 400,
+    "$500/month": 500
+    },
+    "exposedPillEnabled": true,
+    "ABTest": {
+    "SXP_KF_FILTERS_V2": "CONTROL"
+    }
+    },
+    "beds": {
+    "id": "beds",
+    "labels": {
+    "default": "Beds",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "{{min}}+",
+    "max": "<{{max}}",
+    "minMax": "{{min}}-{{max}}",
+    "identicalMinMax": {
+    "0": "Studio",
+    "default": "{{min}}"
+    }
+    }
+    },
+    "sortOrder": 1,
+    "type": "Range",
+    "subType": "ExactableMin",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": {
+    "default": [
+    {
+    "key": "Any",
+    "value": 0
+    },
+    {
+    "key": "1+",
+    "value": 1
+    },
+    {
+    "key": "2+",
+    "value": 2
+    },
+    {
+    "key": "3+",
+    "value": 3
+    },
+    {
+    "key": "4+",
+    "value": 4
+    },
+    {
+    "key": "5+",
+    "value": 5
+    }
+    ],
+    "exact": [
+    {
+    "key": "Studio",
+    "value": 0
+    },
+    {
+    "key": "1",
+    "value": 1
+    },
+    {
+    "key": "2",
+    "value": 2
+    },
+    {
+    "key": "3",
+    "value": 3
+    },
+    {
+    "key": "4",
+    "value": 4
+    },
+    {
+    "key": "5",
+    "value": 5
+    }
+    ]
+    },
+    "exposedPillEnabled": false,
+    "ABTest": {
+    "SXP_RESPONSIVE_SRP": "RESPONSIVE_TWO_COL"
+    }
+    },
+    "isAllHomes": {
+    "id": "isAllHomes",
+    "labels": {
+    "default": "Off Market"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "includeSchoolsSelection": {
+    "id": "includeSchoolsSelection",
+    "labels": {
+    "default": "Include",
+    "valueFormatter": {
+    "highSchool": "high schools",
+    "middleSchool": "middle schools",
+    "elementarySchool": "elementary schools"
+    }
+    },
+    "type": "String",
+    "defaultValue": {
+    "highSchool": null,
+    "middleSchool": null,
+    "elementarySchool": null
+    }
+    },
+    "isCharterSchool": {
+    "id": "isCharterSchool",
+    "labels": {
+    "default": "Charter"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyRentalPetsAllowed": {
+    "id": "onlyRentalPetsAllowed",
+    "labels": {
+    "default": "Pets Allowed"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isAuction": {
+    "id": "isAuction",
+    "labels": {
+    "default": "Auction"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isMakeMeMove": {
+    "id": "isMakeMeMove",
+    "labels": {
+    "default": "Make Me Move"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isMultiFamily": {
+    "id": "isMultiFamily",
+    "labels": {
+    "default": "Apartments"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    },
+    "ABTest": {
+    "SXP_Multifamily_Filter": "CONTROL"
+    }
+    },
+    "doz": {
+    "id": "doz",
+    "labels": {
+    "default": "Days on Zillow",
+    "soldInLast": "Sold in last",
+    "both": "Listed or Sold in last",
+    "valueFormatter": {
+    "1": "1 day",
+    "7": "7 days",
+    "14": "14 days",
+    "30": "30 days",
+    "90": "90 days",
+    "any": "Any",
+    "6m": "6 months",
+    "12m": "12 months",
+    "24m": "24 months",
+    "36m": "36 months"
+    }
+    },
+    "sortOrder": 7,
+    "type": "Enum",
+    "defaultValue": {
+    "value": "any"
+    },
+    "allowedValues": {
+    "1": -1,
+    "7": -7,
+    "14": -14,
+    "30": -30,
+    "90": -90,
+    "any": null,
+    "6m": -182,
+    "12m": -365,
+    "24m": -730,
+    "36m": -1095
+    },
+    "suggestedEnums": {
+    "Any": "any",
+    "1 day": "1",
+    "7 days": "7",
+    "14 days": "14",
+    "30 days": "30",
+    "90 days": "90",
+    "6 months": "6m",
+    "12 months": "12m",
+    "24 months": "24m",
+    "36 months": "36m"
+    },
+    "exposedPillEnabled": true
+    },
+    "isNewConstruction": {
+    "id": "isNewConstruction",
+    "labels": {
+    "default": "New Construction"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isTownhouse": {
+    "id": "isTownhouse",
+    "labels": {
+    "default": "Townhomes"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isLotLand": {
+    "id": "isLotLand",
+    "labels": {
+    "default": "Lots/Land"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isBasementUnfinished": {
+    "id": "isBasementUnfinished",
+    "labels": {
+    "default": "Unfinished",
+    "tracking": "Basement Unfinished"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isOpenHousesOnly": {
+    "id": "isOpenHousesOnly",
+    "labels": {
+    "default": "Must have open house",
+    "tracking": "Open House"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    },
+    "ABTest": {
+    "SXP_KINGFISHER_FILTERS": "P1_PHASE_1"
+    }
+    },
+    "onlyStudioApartments": {
+    "id": "onlyStudioApartments",
+    "labels": {
+    "default": "Studio Apartments Search"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isBasementFinished": {
+    "id": "isBasementFinished",
+    "labels": {
+    "default": "Finished",
+    "tracking": "Basement Finished"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "dataSourceSelection": {
+    "id": "dataSourceSelection",
+    "labels": {
+    "default": "Data Source"
+    },
+    "type": "String",
+    "defaultValue": {
+    "value": "all"
+    }
+    },
+    "isPreMarketForeclosure": {
+    "id": "isPreMarketForeclosure",
+    "labels": {
+    "default": "Foreclosed"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isForSaleByAgent": {
+    "id": "isForSaleByAgent",
+    "labels": {
+    "default": "By Agent"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "parkingSpots": {
+    "id": "parkingSpots",
+    "type": "Range",
+    "labels": {
+    "default": "Parking spots"
+    },
+    "defaultValue": {
+    "min": null
+    },
+    "suggestedEnums": {
+    "Any": null,
+    "1+": 1,
+    "2+": 2,
+    "3+": 3,
+    "4+": 4
+    }
+    },
+    "isPreMarketPreForeclosure": {
+    "id": "isPreMarketPreForeclosure",
+    "labels": {
+    "default": "Pre-Foreclosures"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "hasGarage": {
+    "id": "hasGarage",
+    "labels": {
+    "default": "Must have garage",
+    "tracking": "Garage"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "hasPool": {
+    "id": "hasPool",
+    "labels": {
+    "default": "Must have pool",
+    "tracking": "Pool"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isAcceptingBackupOffersSelected": {
+    "id": "isAcceptingBackupOffersSelected",
+    "labels": {
+    "default": "Accepting Backup Offers",
+    "tracking": "ABO"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "built": {
+    "id": "built",
+    "labels": {
+    "default": "Year Built",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "{{min}}+",
+    "max": "<{{max}}",
+    "minMax": "{{min}}-{{max}}",
+    "identicalMinMax": "{{min}}",
+    "numberFormatter": "0",
+    "inputFormatter": "0"
+    }
+    },
+    "sortOrder": 6,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "exposedPillEnabled": true
+    },
+    "lotSize": {
+    "id": "lotSize",
+    "labels": {
+    "default": "Lot Size",
+    "shortDescription": "...",
+    "longDescription": "...",
+    "pluralSubstitutes": {
+    "acre": "acres"
+    },
+    "valueFormatter": {
+    "none": "Any",
+    "min": "{{min}}+ {{unit}}",
+    "max": "<={{max}} {{unit}}",
+    "minMax": "{{min}}-{{max}} {{unit}}",
+    "identicalMinMax": "{{min}} {{unit}}",
+    "numberFormatter": "0,0[.][000]",
+    "inputFormatter": "0,0[.][000]"
+    }
+    },
+    "sortOrder": 5,
+    "type": "Range",
+    "subType": "RangeWithUnits",
+    "defaultValue": {
+    "min": null,
+    "max": null,
+    "units": "sqft"
+    },
+    "unitTypes": [
+    "sqft",
+    "acre"
+    ],
+    "suggestedEnums": [
+    {
+    "label": "1,000 sqft",
+    "value": 1000,
+    "units": "sqft"
+    },
+    {
+    "label": "2,000 sqft",
+    "value": 2000,
+    "units": "sqft"
+    },
+    {
+    "label": "3,000 sqft",
+    "value": 3000,
+    "units": "sqft"
+    },
+    {
+    "label": "4,000 sqft",
+    "value": 4000,
+    "units": "sqft"
+    },
+    {
+    "label": "5,000 sqft",
+    "value": 5000,
+    "units": "sqft"
+    },
+    {
+    "label": "7,500 sqft",
+    "value": 7500,
+    "units": "sqft"
+    },
+    {
+    "label": "1/4 acre/10,890 sqft",
+    "value": 10890,
+    "units": "sqft"
+    },
+    {
+    "label": "1/2 acre",
+    "value": 21780,
+    "units": "sqft"
+    },
+    {
+    "label": "1 acre",
+    "value": 43560,
+    "units": "sqft"
+    },
+    {
+    "label": "2 acres",
+    "value": 87120,
+    "units": "sqft"
+    },
+    {
+    "label": "5 acres",
+    "value": 217800,
+    "units": "sqft"
+    },
+    {
+    "label": "10 acres",
+    "value": 435600,
+    "units": "sqft"
+    },
+    {
+    "label": "20 acres",
+    "value": 871200,
+    "units": "sqft"
+    },
+    {
+    "label": "50 acres",
+    "value": 2178000,
+    "units": "sqft"
+    },
+    {
+    "label": "100 acres",
+    "value": 4356000,
+    "units": "sqft"
+    }
+    ],
+    "exposedPillEnabled": true,
+    "ABTest": {
+    "SXP_KINGFISHER_FILTERS": "P1_PHASE_1"
+    }
+    },
+    "greatSchoolsRating": {
+    "id": "greatSchoolsRating",
+    "labels": {
+    "default": "GreatSchools Rating",
+    "valueFormatter": {
+    "none": "Any"
+    }
+    },
+    "type": "Range",
+    "defaultValue": {
+    "min": 1
+    },
+    "suggestedEnums": [
+    {
+    "label": "1+",
+    "value": 1
+    },
+    {
+    "label": "2+",
+    "value": 2
+    },
+    {
+    "label": "3+",
+    "value": 3
+    },
+    {
+    "label": "4+",
+    "value": 4
+    },
+    {
+    "label": "5+",
+    "value": 5
+    },
+    {
+    "label": "6+",
+    "value": 6
+    },
+    {
+    "label": "7+",
+    "value": 7
+    },
+    {
+    "label": "8+",
+    "value": 8
+    },
+    {
+    "label": "9+",
+    "value": 9
+    },
+    {
+    "label": "10",
+    "value": 10
+    }
+    ]
+    },
+    "includeUnratedSchools": {
+    "id": "includeUnratedSchools",
+    "labels": {
+    "default": "Include schools with no rating"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "onlyFurnishedApartments": {
+    "id": "onlyFurnishedApartments",
+    "labels": {
+    "default": "Furnished Apartments Search"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isRecentlySold": {
+    "id": "isRecentlySold",
+    "labels": {
+    "default": "Sold",
+    "long": "Recently Sold"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "isPendingListingsSelected": {
+    "id": "isPendingListingsSelected",
+    "labels": {
+    "default": "Pending & Under Contract"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "baths": {
+    "id": "baths",
+    "labels": {
+    "default": "Bathrooms",
+    "valueFormatter": {
+    "none": "Any",
+    "min": "{{min}}+",
+    "max": "<{{max}}",
+    "minMax": "{{min}}-{{max}}",
+    "identicalMinMax": "{{min}}"
+    }
+    },
+    "sortOrder": 3,
+    "type": "Range",
+    "defaultValue": {
+    "min": null,
+    "max": null
+    },
+    "suggestedEnums": {
+    "Any": 0,
+    "1+": 1,
+    "1.5+": 1.5,
+    "2+": 2,
+    "3+": 3,
+    "4+": 4
+    },
+    "exposedPillEnabled": true,
+    "ABTest": {
+    "SXP_KINGFISHER_FILTERS": "P1_PHASE_1"
+    }
+    },
+    "onlyRentalBuildings": {
+    "id": "onlyRentalBuildings",
+    "labels": {
+    "default": "For Rent Building Search"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "includeHomesWithNoHoaData": {
+    "id": "includeHomesWithNoHoaData",
+    "labels": {
+    "default": "Include homes with incomplete HOA data",
+    "tracking": "HOA No Data"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isElementarySchool": {
+    "id": "isElementarySchool",
+    "labels": {
+    "default": "Elementary"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": true
+    }
+    },
+    "isParkView": {
+    "id": "isParkView",
+    "labels": {
+    "default": "Park",
+    "tracking": "Park View"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value": false
+    }
+    },
+    "enableSchools": {
+    "id": "enableSchools",
+    "labels": {
+    "default": "Schools"
+    },
+    "type": "Boolean",
+    "defaultValue": {
+    "value:": false
+    }
+    }
+    },
+    "defaultFilterState": {
+    "keywords": {
+    "value": ""
+    },
+    "isPublicSchool": {
+    "value": true
+    },
+    "isCityView": {
+    "value": false
+    },
+    "isWaterfront": {
+    "value": false
+    },
+    "isCondo": {
+    "value": true
+    },
+    "isMountainView": {
+    "value": false
+    },
+    "singleStory": {
+    "value": false
+    },
+    "onlyRentalParkingAvailable": {
+    "value": false
+    },
+    "monthlyPayment": {
+    "min": null,
+    "max": null
+    },
+    "price": {
+    "min": null,
+    "max": null
+    },
+    "onlyPriceReduction": {
+    "value": false
+    },
+    "onlyRentalAcceptsApplications": {
+    "value": false
+    },
+    "SEOTypedIdField": {
+    "value": null,
+    "field": null,
+    "id": null
+    },
+    "sqft": {
+    "min": null,
+    "max": null
+    },
+    "isForRent": {
+    "value": false
+    },
+    "isForSaleByOwner": {
+    "value": true
+    },
+    "hasAirConditioning": {
+    "value": false
+    },
+    "sortSelection": {
+    "value": "globalrelevanceex"
+    },
+    "isMiddleSchool": {
+    "value": true
+    },
+    "onlyCondoBuildings": {
+    "value": false
+    },
+    "isWaterView": {
+    "value": false
+    },
+    "isPrivateSchool": {
+    "value": true
+    },
+    "onlyRentalIncomeRestricted": {
+    "value": false
+    },
+    "isManufactured": {
+    "value": true
+    },
+    "onlyRentalInUnitLaundry": {
+    "value": false
+    },
+    "isComingSoon": {
+    "value": true
+    },
+    "isSingleFamily": {
+    "value": true
+    },
+    "onlyCheapApartments": {
+    "value": false
+    },
+    "isForSaleForeclosure": {
+    "value": true
+    },
+    "isHighSchool": {
+    "value": true
+    },
+    "onlyWithPhotos": {
+    "value": false
+    },
+    "hoa": {
+    "min": null,
+    "max": null
+    },
+    "beds": {
+    "min": null,
+    "max": null
+    },
+    "isAllHomes": {
+    "value": false
+    },
+    "includeSchoolsSelection": {
+    "highSchool": null,
+    "middleSchool": null,
+    "elementarySchool": null
+    },
+    "isCharterSchool": {
+    "value": true
+    },
+    "onlyRentalPetsAllowed": {
+    "value": false
+    },
+    "isAuction": {
+    "value": true
+    },
+    "isMakeMeMove": {
+    "value": true
+    },
+    "isMultiFamily": {
+    "value": true
+    },
+    "doz": {
+    "value": "any"
+    },
+    "isNewConstruction": {
+    "value": true
+    },
+    "isTownhouse": {
+    "value": true
+    },
+    "isLotLand": {
+    "value": true
+    },
+    "isBasementUnfinished": {
+    "value": false
+    },
+    "isOpenHousesOnly": {
+    "value": false
+    },
+    "onlyStudioApartments": {
+    "value": false
+    },
+    "isBasementFinished": {
+    "value": false
+    },
+    "dataSourceSelection": {
+    "value": "all"
+    },
+    "isPreMarketForeclosure": {
+    "value": true
+    },
+    "isForSaleByAgent": {
+    "value": true
+    },
+    "parkingSpots": {
+    "min": null
+    },
+    "isPreMarketPreForeclosure": {
+    "value": true
+    },
+    "hasGarage": {
+    "value": false
+    },
+    "hasPool": {
+    "value": false
+    },
+    "isAcceptingBackupOffersSelected": {
+    "value": false
+    },
+    "built": {
+    "min": null,
+    "max": null
+    },
+    "lotSize": {
+    "min": null,
+    "max": null,
+    "units": "sqft"
+    },
+    "greatSchoolsRating": {
+    "min": 1
+    },
+    "includeUnratedSchools": {
+    "value": true
+    },
+    "onlyFurnishedApartments": {
+    "value": false
+    },
+    "isRecentlySold": {
+    "value": false
+    },
+    "isPendingListingsSelected": {
+    "value": false
+    },
+    "baths": {
+    "min": null,
+    "max": null
+    },
+    "onlyRentalBuildings": {
+    "value": false
+    },
+    "includeHomesWithNoHoaData": {
+    "value": true
+    },
+    "isElementarySchool": {
+    "value": true
+    },
+    "isParkView": {
+    "value": false
+    },
+    "enableSchools": {
+    "value:": false
+    }
+    },
+    "defaultQueryState": {
+    "filterState": {},
+    "dataSource": "core",
+    "isMapVisible": false,
+    "isListVisible": true,
+    "mapBounds": {
+    "west": -122.58236,
+    "south": 47.497486,
+    "east": -122.087975,
+    "north": 47.777405,
+    "zoom": 10
+    },
+    "mapZoom": 10,
+    "pagination": {
+    "currentPage": 1
+    },
+    "usersSearchTerm": null,
+    "regionSelection": null,
+    "schoolId": null,
+    "customRegionId": null,
+    "savedSearchEnrollmentId": null,
+    "serverOnly": {
+    "hiddenPropertyIds": [],
+    "excludedBuildingIds": [],
+    "dataSourcePropertyFilter": [],
+    "attendanceZoneIds": [],
+    "resultsPerPage": 42
+    }
+    },
+    "searchPageConstants": {
+    "monthlyInterestRate": 0.0034908333,
+    "isMobile": false,
+    "searchMapGoogleAPIKey": "AIzaSyA1uIgJLlFocMlwcu8b3wKPKkdT2mWV3AU",
+    "mapComboUrl": "https://www.zillowstatic.com",
+    "debugEnabled": false
+    },
+    "searchList": {
+    "displayRelaxedPriceMessage": false,
+    "expansionDistance": 0,
+    "isCollectionView": false,
+    "staticBaseUrl": "https://www.zillowstatic.com/static/",
+    "resultsMessage": "None",
+    "pagination": {
+    "nextUrl": "/homes/%7B%22mapZoom%22%3A-11,-%22regionSelection%22%3A-%5B%7B%22regionId%22%3A-50764,-%22regionType%22%3A-6%7D%5D,-%22pagination%22%3A-%7B%22currentPage%22%3A1%7D,-%22mapBounds%22%3A-%7B%22west%22%3A-88.11190230485462,-%22east%22%3A-87.85950969514536,-%22north%22%3A-42.22209030485463,-%22south%22%3A-41.96969769514537%7D,-%22filterState%22%3A-%7B%22isForSaleByOwner%22%3A-%7B%22value%22%3A-false%7D,-%22isPreMarketForeclosure%22%3A-%7B%22value%22%3A-false%7D,-%22isMakeMeMove%22%3A-%7B%22value%22%3A-false%7D,-%22isForSaleForeclosure%22%3A-%7B%22value%22%3A-false%7D,-%22isForSaleByAgent%22%3A-%7B%22value%22%3A-false%7D,-%22isNewConstruction%22%3A-%7B%22value%22%3A-false%7D,-%22isPreMarketPreForeclosure%22%3A-%7B%22value%22%3A-false%7D,-%22sortSelection%22%3A-%7B%22value%22%3A-%22days%22%7D,-%22isComingSoon%22%3A-%7B%22value%22%3A-false%7D,-%22isForRent%22%3A-%7B%22value%22%3A-true%7D%7D,-%22isListVisible%22%3A-true,-%22isMapVisible%22%3A-true,-%22usersSearchTerm%22%3A-%22Arlington-Heights,-IL%22%7D/2_p/",
+    "previousUrl": "/homes/"
+    },
+    "message": null,
+    "adsConfig": {
+    "navAdSlot": "zillow/search_results/rent_general/search_1",
+    "displayAdSlot": "zillow/search_results/rent_general/b_right_p1",
+    "targets": {
+    "zip": "60005,60004",
+    "mlat": "42.095894",
+    "zusr": "true",
+    "vers": "class1.5",
+    "listtp": "rent_general",
+    "searchtp": "unknown",
+    "filtered": "false",
+    "zguidh": "-1211717699336131471",
+    "premieragent": "no",
+    "agentnavads": "yes",
+    "mlong": "-87.985706",
+    "pis": "2"
+    },
+    "needsUpdate": true
+    },
+    "coShoppingConfig": {
+    "isEnabled": false,
+    "shouldShowUpsellDialog": false,
+    "shouldShowAcceptDialog": false,
+    "inviterName": null,
+    "gaLabel": "invite_email_notloggedin"
+    },
+    "totalResultCount": 71,
+    "resultsPerPage": 24,
+    "totalPages": 3,
+    "listResultsTitle": "Arlington Heights IL Real Estate & Homes For Sale"
+    },
+    "searchResults": {
+    "listResults": [
+    {
+    "zpid": "42.152011--88.007558",
+    "id": "42.152011--88.007558",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS2n6j1hxj8l8t0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Arbor Lakes",
+    "detailUrl": "https://www.zillow.com/b/arbor-lakes-arlington-heights-il-9r3hkS/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.152011,
+    "longitude": -88.007558
+    },
+    "units": [
+    {
+    "price": "$1,239+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,400+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Arbor Lakes",
+    "isBuilding": true,
+    "address": "4233 N Bloomington Ave, Arlington Heights, IL",
+    "photoCount": 23,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.084128--87.98065",
+    "id": "42.084128--87.98065",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISmqebq9k8umym0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Hancock Square at Arlington Station",
+    "detailUrl": "https://www.zillow.com/b/hancock-square-at-arlington-station-arlington-heights-il-5Zbh3F/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.084128,
+    "longitude": -87.98065
+    },
+    "units": [
+    {
+    "price": "$1,438+",
+    "beds": "0"
+    },
+    {
+    "price": "$1,778",
+    "beds": "1"
+    },
+    {
+    "price": "$2,098+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Hancock Square at Arlington Station",
+    "isBuilding": true,
+    "address": "180 N Arlington Heights Rd, Arlington Heights, IL",
+    "photoCount": 32,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.126107--87.964867",
+    "id": "42.126107--87.964867",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISyn4fsn2z6h420000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Brook Run",
+    "detailUrl": "https://www.zillow.com/b/brook-run-arlington-heights-il-5XjKYM/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.126107,
+    "longitude": -87.964867
+    },
+    "units": [
+    {
+    "price": "$1,180+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,543+",
+    "beds": "2"
+    },
+    {
+    "price": "$1,935+",
+    "beds": "3"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Brook Run",
+    "isBuilding": true,
+    "address": "2734 N Buffalo Grove Rd, Arlington Heights, IL",
+    "photoCount": 23,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.06395--87.964904",
+    "id": "42.06395--87.964904",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS6a371k8ws6qf0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "For Rent",
+    "detailUrl": "https://www.zillow.com/b/1605-E-Central-Rd-Arlington-Heights-IL/42.06395,-87.964904_ll/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.06395,
+    "longitude": -87.964904
+    },
+    "units": [
+    {
+    "price": "$1,300",
+    "beds": "1"
+    },
+    {
+    "price": "$1,590+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "Updated yesterday"
+    },
+    "buildingName": null,
+    "isBuilding": true,
+    "address": "1605 E Central Rd, Arlington Heights, IL",
+    "photoCount": 31,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.119246--87.991334",
+    "id": "42.119246--87.991334",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISib0zt9lbjvr70000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "For Rent",
+    "detailUrl": "https://www.zillow.com/b/701-w-rand-rd-arlington-heights-il-5XjSJD/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.119246,
+    "longitude": -87.991334
+    },
+    "units": [
+    {
+    "price": "$1,599+",
+    "beds": "1"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": null,
+    "isBuilding": true,
+    "address": "701 W Rand Rd, Arlington Heights, IL",
+    "photoCount": 12,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.085117--87.987219",
+    "id": "42.085117--87.987219",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS2nmzgo7visbf0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "350 West Miner Street Condominiums",
+    "detailUrl": "https://www.zillow.com/b/350-west-miner-street-condominiums-arlington-heights-il-5Xq2r5/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.085117,
+    "longitude": -87.987219
+    },
+    "units": [
+    {
+    "price": "$1,150",
+    "beds": "1"
+    },
+    {
+    "price": "$1,350+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "350 West Miner Street Condominiums",
+    "isBuilding": true,
+    "address": "322 W Miner St, Arlington Heights, IL",
+    "photoCount": 16,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.082149--87.983781",
+    "id": "42.082149--87.983781",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISugoaby3a5b2n1000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Dunton Tower",
+    "detailUrl": "https://www.zillow.com/b/dunton-tower-arlington-heights-il-5XjRPG/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.082149,
+    "longitude": -87.983781
+    },
+    "units": [
+    {
+    "price": "$1,389+",
+    "beds": "0"
+    },
+    {
+    "price": "$1,589+",
+    "beds": "1"
+    },
+    {
+    "price": "$2,029+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Dunton Tower",
+    "isBuilding": true,
+    "address": "55 S Vail Ave, Arlington Heights, IL",
+    "photoCount": 15,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "3318837",
+    "id": "3318837",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISeoblbl33vyrd1000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/821-N-Salem-Ave-Arlington-Heights-IL-60004/3318837_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "House for rent",
+    "price": "$2,600/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "821 N Salem Ave, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "821 N Salem Ave, Arlington Heights, IL 60004",
+    "countryCurrency": "$",
+    "beds": 4,
+    "baths": 3,
+    "area": 2318,
+    "latLong": {
+    "latitude": 42.092198,
+    "longitude": -87.992217
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "2 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "3318837",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISeoblbl33vyrd1000000000.jpg",
+    "pc": 17,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842642&entry=NearZest&zpid=3318837",
+    "rz": "$2,495",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$2,600/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/821-N-Salem-Ave-Arlington-Heights-IL-60004/3318837_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/821-N-Salem-Ave-Arlington-Heights-IL-60004/3318837_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$2,600/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60004",
+    "title": "821 N Salem Ave,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$2,600",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$2,495"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "4 beds"
+    },
+    {
+    "fact": "3 baths"
+    },
+    {
+    "fact": "2,318 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $2,600/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.092198,-87.992217&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=fJngJfAXcwWz1_Zb2UEqSDiW5Rk="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 17,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.08226--87.97028",
+    "id": "42.08226--87.97028",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS2vkz90ch92go0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "11-21 Dryden",
+    "detailUrl": "https://www.zillow.com/b/11-21-dryden-arlington-heights-il-5fvrW7/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.08226,
+    "longitude": -87.97028
+    },
+    "units": [
+    {
+    "price": "$825+",
+    "beds": "1"
+    },
+    {
+    "price": "$950+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "11-21 Dryden",
+    "isBuilding": true,
+    "address": "11 N Dryden Pl, Arlington Heights, IL",
+    "photoCount": 5,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.066308--87.966819",
+    "id": "42.066308--87.966819",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISyrvex92dczsg0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Central Park East",
+    "detailUrl": "https://www.zillow.com/b/central-park-east-arlington-heights-il-5XjCzq/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.066308,
+    "longitude": -87.966819
+    },
+    "units": [
+    {
+    "price": "$1,680+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,955+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Central Park East",
+    "isBuilding": true,
+    "address": "1551 E Central Rd, Arlington Heights, IL",
+    "photoCount": 40,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.090001--88.024362",
+    "id": "42.090001--88.024362",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS62lf1dvuq8qn1000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "One Arlington",
+    "detailUrl": "https://www.zillow.com/b/one-arlington-arlington-heights-il-63fCvK/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.090001,
+    "longitude": -88.024362
+    },
+    "units": [
+    {
+    "price": "$1,529+",
+    "beds": "0"
+    },
+    {
+    "price": "$1,799+",
+    "beds": "1"
+    },
+    {
+    "price": "$2,499+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "One Arlington",
+    "isBuilding": true,
+    "address": "3400 W Stonegate Blvd, Arlington Heights, IL",
+    "photoCount": 40,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.047128--87.976154",
+    "id": "42.047128--87.976154",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS2jbwnl59gm8c0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Residences at Arlington Heights",
+    "detailUrl": "https://www.zillow.com/b/residences-at-arlington-heights-arlington-heights-il-5XjPjW/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.047128,
+    "longitude": -87.976154
+    },
+    "units": [
+    {
+    "price": "$995+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,335+",
+    "beds": "2"
+    },
+    {
+    "price": "$1,695+",
+    "beds": "3"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Residences at Arlington Heights",
+    "isBuilding": true,
+    "address": "2134 S Goebbert Rd, Arlington Heights, IL",
+    "photoCount": 23,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "2086915348",
+    "id": "2086915348",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISybjivvvm6dle1000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/511-W-Rand-Rd-Arlington-Heights-IL-60004/2086915348_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "House for rent",
+    "price": "$4,700/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "511 W Rand Rd, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "511 W Rand Rd, Arlington Heights, IL 60004",
+    "countryCurrency": "$",
+    "beds": 2,
+    "baths": 2,
+    "area": 1250,
+    "latLong": {
+    "latitude": 42.117663,
+    "longitude": -87.988158
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "3 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "2086915348",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISybjivvvm6dle1000000000.jpg",
+    "pc": 15,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842648&entry=NearZest&zpid=2086915348",
+    "rz": "$2,047",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$4,700/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/511-W-Rand-Rd-Arlington-Heights-IL-60004/2086915348_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/511-W-Rand-Rd-Arlington-Heights-IL-60004/2086915348_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$4,700/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60004",
+    "title": "511 W Rand Rd,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$4,700",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$2,047"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "2 beds"
+    },
+    {
+    "fact": "2 baths"
+    },
+    {
+    "fact": "1,250 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $4,700/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.117663,-87.988158&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=uOw5ECrlARh7aJrWM5jcdKxZdXc="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 15,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "70452355",
+    "id": "70452355",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/IS2fwlitwoa1s30000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/2411-N-Kennicott-Dr-APT-2B-Arlington-Heights-IL-60004/70452355_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "Condo for rent",
+    "price": "$1,600/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "2411 N Kennicott Dr APT 2B, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "2411 N Kennicott Dr APT 2B, Arlington Heights, IL 60004",
+    "countryCurrency": "$",
+    "beds": 2,
+    "baths": 2,
+    "area": 1100,
+    "latLong": {
+    "latitude": 42.119622,
+    "longitude": -87.993842
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "4 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "70452355",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/IS2fwlitwoa1s30000000000.jpg",
+    "pc": 4,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842653&entry=NearZest&zpid=70452355",
+    "rz": "$1,350",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$1,600/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/2411-N-Kennicott-Dr-APT-2B-Arlington-Heights-IL-60004/70452355_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/2411-N-Kennicott-Dr-APT-2B-Arlington-Heights-IL-60004/70452355_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$1,600/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60004",
+    "title": "2411 N Kennicott Dr APT 2B,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$1,600",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$1,350"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "2 beds"
+    },
+    {
+    "fact": "2 baths"
+    },
+    {
+    "fact": "1,100 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $1,600/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.119622,-87.993842&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=AxrfPryShDu7EVjmbyLO4L91__4="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 4,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "3301340",
+    "id": "3301340",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISybrs0lpeozv30000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/949-W-Essex-Pl-Arlington-Heights-IL-60004/3301340_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "Townhouse for rent",
+    "price": "$2,700/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "949 W Essex Pl, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "949 W Essex Pl, Arlington Heights, IL 60004",
+    "countryCurrency": "$",
+    "beds": 3,
+    "baths": 2.5,
+    "area": 2385,
+    "latLong": {
+    "latitude": 42.123497,
+    "longitude": -87.994215
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "5 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "3301340",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISybrs0lpeozv30000000000.jpg",
+    "pc": 12,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842660&entry=NearZest&zpid=3301340",
+    "rz": "$2,200",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$2,700/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/949-W-Essex-Pl-Arlington-Heights-IL-60004/3301340_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/949-W-Essex-Pl-Arlington-Heights-IL-60004/3301340_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$2,700/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60004",
+    "title": "949 W Essex Pl,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$2,700",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$2,200"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "3 beds"
+    },
+    {
+    "fact": "2.5 baths"
+    },
+    {
+    "fact": "2,385 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $2,700/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.123497,-87.994215&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=srmfHwRf8_nqMqwHybVjFz5lRSo="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 12,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.085197--87.982548",
+    "id": "42.085197--87.982548",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISmy8ggz70cec21000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "For Rent",
+    "detailUrl": "https://www.zillow.com/b/299-N-Dunton-Ave-Arlington-Heights-IL/42.085197,-87.982548_ll/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.085197,
+    "longitude": -87.982548
+    },
+    "units": [
+    {
+    "price": "$1,467",
+    "beds": "0"
+    },
+    {
+    "price": "$1,778",
+    "beds": "1"
+    },
+    {
+    "price": "$2,102",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": null,
+    "isBuilding": true,
+    "address": "299 N Dunton Ave, Arlington Heights, IL",
+    "photoCount": 18,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.151854--88.013093",
+    "id": "42.151854--88.013093",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISali9r395uk8b0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "For Rent",
+    "detailUrl": "https://www.zillow.com/b/4062-Bonhill-Dr-Arlington-Heights-IL/42.151854,-88.013093_ll/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.151854,
+    "longitude": -88.013093
+    },
+    "units": [
+    {
+    "price": "$975",
+    "beds": "1"
+    },
+    {
+    "price": "$1,050",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": null,
+    "isBuilding": true,
+    "address": "4062 Bonhill Dr, Arlington Heights, IL",
+    "photoCount": 9,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "80815049",
+    "id": "80815049",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISugsxzvljmtqq0000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/2234-S-Goebbert-Rd-APT-420-Arlington-Heights-IL-60005/80815049_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "Condo for rent",
+    "price": "$1,000/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "2234 S Goebbert Rd APT 420, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "2234 S Goebbert Rd APT 420, Arlington Heights, IL 60005",
+    "countryCurrency": "$",
+    "beds": 1,
+    "baths": 1,
+    "area": 850,
+    "latLong": {
+    "latitude": 42.044658,
+    "longitude": -87.976258
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "7 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "80815049",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISugsxzvljmtqq0000000000.jpg",
+    "pc": 18,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842665&entry=NearZest&zpid=80815049",
+    "rz": "$1,250",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$1,000/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/2234-S-Goebbert-Rd-APT-420-Arlington-Heights-IL-60005/80815049_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/2234-S-Goebbert-Rd-APT-420-Arlington-Heights-IL-60005/80815049_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$1,000/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60005",
+    "title": "2234 S Goebbert Rd APT 420,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$1,000",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$1,250"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "1 bed"
+    },
+    {
+    "fact": "1 bath"
+    },
+    {
+    "fact": "850 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $1,000/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.044658,-87.976258&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=uuk5XTY8oq6v57uZODXGzhnwj6g="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 18,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "3299462",
+    "id": "3299462",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISyfmfeo3yhtz01000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/2025-N-Charter-Point-Dr-30-2-Arlington-Heights-IL-60004/3299462_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "House for rent",
+    "price": "$1,850/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "2025 N Charter Point Dr # 30-2, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "2025 N Charter Point Dr # 30-2, Arlington Heights, IL 60004",
+    "countryCurrency": "$",
+    "beds": 2,
+    "baths": 1.5,
+    "area": 1400,
+    "latLong": {
+    "latitude": 42.111451,
+    "longitude": -87.951784
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "8 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "3299462",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISyfmfeo3yhtz01000000000.jpg",
+    "pc": 18,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842672&entry=NearZest&zpid=3299462",
+    "rz": "$1,800",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$1,850/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/2025-N-Charter-Point-Dr-30-2-Arlington-Heights-IL-60004/3299462_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/2025-N-Charter-Point-Dr-30-2-Arlington-Heights-IL-60004/3299462_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$1,850/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60004",
+    "title": "2025 N Charter Point Dr # 30-2,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$1,850",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$1,800"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "2 beds"
+    },
+    {
+    "fact": "1.5 baths"
+    },
+    {
+    "fact": "1,400 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $1,850/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.111451,-87.951784&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=jI1i_Zr7XPW1tIcVubRixX_pvGQ="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 18,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.119743--87.989183",
+    "id": "42.119743--87.989183",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISeob9ev3kq7jr0000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Stonebridge Village",
+    "detailUrl": "https://www.zillow.com/b/stonebridge-village-arlington-heights-il-5Xk7Qg/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.119743,
+    "longitude": -87.989183
+    },
+    "units": [
+    {
+    "price": "$1,199+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,479+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Stonebridge Village",
+    "isBuilding": true,
+    "address": "600 W Rand Rd, Arlington Heights, IL",
+    "photoCount": 12,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.067811--87.967516",
+    "id": "42.067811--87.967516",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISu4j20ccj77hr1000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "For Rent",
+    "detailUrl": "https://www.zillow.com/b/920-S-Mckinley-Ave-Arlington-Heights-IL/42.067811,-87.967516_ll/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.067811,
+    "longitude": -87.967516
+    },
+    "units": [
+    {
+    "price": "$900",
+    "beds": "1"
+    },
+    {
+    "price": "$1,150",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": null,
+    "isBuilding": true,
+    "address": "920 S Mckinley Ave, Arlington Heights, IL",
+    "photoCount": 6,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "3319737",
+    "id": "3319737",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISusdinc0rpxsm0000000000.jpg",
+    "detailUrl": "https://www.zillow.com/homedetails/510-W-Eastman-St-UNIT-1G-Arlington-Heights-IL-60005/3319737_zpid/",
+    "statusType": "FOR_RENT",
+    "statusText": "Apartment for rent",
+    "price": "$1,375/mo",
+    "festimate": null,
+    "pricePerSqft": null,
+    "address": "510 W Eastman St UNIT 1G, Arlington Heights, IL",
+    "addressState": "IL",
+    "addressWithZip": "510 W Eastman St UNIT 1G, Arlington Heights, IL 60005",
+    "countryCurrency": "$",
+    "beds": 1,
+    "baths": 1,
+    "area": 1150,
+    "latLong": {
+    "latitude": 42.085419,
+    "longitude": -87.989055
+    },
+    "builderName": null,
+    "isZillowOwned": false,
+    "schoolRating": null,
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": "10 days ago",
+    "data": {
+    "isFresh": false
+    }
+    },
+    "hdpData": {
+    "id": "3319737",
+    "vi": 0,
+    "il": "https://photos.zillowstatic.com/p_g/ISusdinc0rpxsm0000000000.jpg",
+    "pc": 17,
+    "isComingSoon": false,
+    "hs": {
+    "st": "For Rent",
+    "nt": null,
+    "isTZOn": false,
+    "tzl": "https://www.zillow.com:443/editing/EditHomeFacts.htm?cid=1556552842678&entry=NearZest&zpid=3319737",
+    "rz": "$1,335",
+    "cl": "forRent",
+    "showComingSoonContactLink": true,
+    "fr": true,
+    "fv": false,
+    "isComingSoon": false,
+    "onMarketDateString": null,
+    "showOnMarketDate": false,
+    "lb": "For Rent",
+    "onMarketDateStringFullMonthName": null,
+    "id": "forRent",
+    "hd": "$1,375/mo"
+    },
+    "isPhotosFullWidth": false,
+    "pubhref": "https://www.zillow.com/homedetails/510-W-Eastman-St-UNIT-1G-Arlington-Heights-IL-60005/3319737_zpid/",
+    "pubTabText": "Public",
+    "ovhref": "https://www.zillow.com/homedetails/510-W-Eastman-St-UNIT-1G-Arlington-Heights-IL-60005/3319737_zpid/?view=owner",
+    "ovTabText": "Landlord",
+    "enableHdpTabs": true,
+    "isUserPermittedOwnerView": false,
+    "promotionsModule": false,
+    "homeSummary": {
+    "isPostletsTextLinkAd": true,
+    "displayType": "For Rent",
+    "hasBedBathSqft": "true",
+    "displayPrice": "$1,375/mo",
+    "titleObject": {
+    "subTitle": "Arlington Heights, IL 60005",
+    "title": "510 W Eastman St UNIT 1G,"
+    },
+    "rows": [
+    {
+    "statusIcon": true,
+    "label": "For Rent",
+    "status": "for-rent"
+    },
+    {
+    "valueSuffix": "/mo",
+    "value": "$1,375",
+    "rowStyleClass": "main-row"
+    },
+    {
+    "labelTooltipId": "rest-tip-hdp",
+    "label": "Rent Zestimate<sup>&reg;</sup>:",
+    "valueSuffix": "/mo",
+    "value": "$1,335"
+    }
+    ],
+    "locale": "en_US",
+    "bedBathSqft": [
+    {
+    "fact": "1 bed"
+    },
+    {
+    "fact": "1 bath"
+    },
+    {
+    "fact": "1,150 sqft"
+    }
+    ],
+    "status": "for-rent",
+    "typeAndPrice": "For Rent: $1,375/mo"
+    },
+    "isStreetViewEnabled": true,
+    "isPropertyImagesEmpty": false,
+    "streetViewImageUrl": "https://maps.googleapis.com/maps/api/streetview?location=42.085419,-87.989055&size=320x234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=IqpCsqfPufTONcuTYdVN0dJCL20="
+    },
+    "isSaved": false,
+    "isUserOwnerOrAgent": false,
+    "isUserClaimingOwner": false,
+    "isCurrentUserClaimedPropertyOwner": false,
+    "isUserConfirmedClaim": false,
+    "isPreForeclosureCamo": false,
+    "pgapt": "ForRent",
+    "sgapt": "For Rent",
+    "photoCount": 17,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.142961--87.985719",
+    "id": "42.142961--87.985719",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISxfy8hjofglut1000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "Waterford Place",
+    "detailUrl": "https://www.zillow.com/b/waterford-place-arlington-heights-il-5XjMFR/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.142961,
+    "longitude": -87.985719
+    },
+    "units": [
+    {
+    "price": "$1,258+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,549+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "Waterford Place",
+    "isBuilding": true,
+    "address": "313 W Happfield Dr, Arlington Heights, IL",
+    "photoCount": 1,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    },
+    {
+    "zpid": "42.083451--87.983857",
+    "id": "42.083451--87.983857",
+    "imgSrc": "https://photos.zillowstatic.com/p_e/ISmae0d2s42pm41000000000.jpg",
+    "statusType": "FOR_RENT",
+    "statusText": "15 N Vail/15 W Davis",
+    "detailUrl": "https://www.zillow.com/b/15-n-vail-15-w-davis-arlington-heights-il-5YCKM4/",
+    "schoolRating": null,
+    "latLong": {
+    "latitude": 42.083451,
+    "longitude": -87.983857
+    },
+    "units": [
+    {
+    "price": "$1,600+",
+    "beds": "1"
+    },
+    {
+    "price": "$1,750+",
+    "beds": "2"
+    }
+    ],
+    "commute": null,
+    "variableData": {
+    "type": "TIME_ON_INFO",
+    "text": null
+    },
+    "buildingName": "15 N Vail/15 W Davis",
+    "isBuilding": true,
+    "address": "15 N Vail Ave, Arlington Heights, IL",
+    "photoCount": 10,
+    "paymentPeriod": null,
+    "list": true,
+    "relaxed": false
+    }
+    ],
+    "hasListResults": true,
+    "resultsHash": "5be4211c"
+    },
+    "user": {
+    "isLoggedIn": false,
+    "savedSearchCount": 0,
+    "savedHomesCount": 0,
+    "personalizedSearchGaDataTag": null
+    },
+    "mapState": {
+    "customRegionPolygonWkt": null,
+    "schoolPolygonWkt": null
+    },
+    "abTrials": {
+    "SEOTEST__SXP_SEO_TEST": "CONTROL",
+    "SHO_MOBILE_WEB_FILTER_PILLS": "CAROUSEL_ONLY",
+    "SHO_InstantSS": "Default_Daily",
+    "SHO_COLLECTIONS_NO_BUTTON": "CONTROL",
+    "SHO_SSR_SORT_CONTROL": "CONTROL",
+    "SHO_SESSION_SERVICE": "REGION_DATA_V1",
+    "SHO_GA_ResultsTotalEvent": "CONTROL_OFF",
+    "SXP_HDP_CONTINGENT_V2": "CONTROL",
+    "SHO_INSTANTHDP": "CONTROL_DISABLED",
+    "SHO_ADS_AND_TRACKING_PIXELS": "CONTROL",
+    "SRP_KF_SCHOOLS_MOBILE": "CONTROL",
+    "SXP_REACT_FOOTER_DESKTOP": "CONTROL",
+    "SHO_AAC_DISTANCE_LIMIT": "SHO_AAC_DISTANCE_LIMIT_NONE",
+    "SHO_GA_MapZoomEvent": "CONTROL_OFF",
+    "SHO_DEFAULT_PENDING": "CONTROL_PENDING_UNCHECKED",
+    "SHO_ScrubbingBubbles": "SB_BOUNDARIES_AND_MARKERS_ON",
+    "SHO_MOBILE_COLLECTIONS_HOME_PAGE": "ENABLED",
+    "SHO_MOBILE_COLLECTIONS_SEARCH_PAGE": "COLLECTIONS_BOTTOM",
+    "SHO_MOBILE_UPDATES": "CONTROL",
+    "VL_BDP_INDEPENDENCE_DAY_ENGAGEMENT_FOR_RENT": "TEST_REACT",
+    "SHO_AMENITIES": "CONTROL",
+    "SHO_MOBILE_FILTER_BAR_POSITION": "TOP",
+    "SXP_WOW_FILTERS": "ON",
+    "SXP_PAGE_LOAD": "CONTROL",
+    "SHO_DEFAULT_LIST_OR_MAP": "CONTROL_DEFAULT_LIST",
+    "SHO_AppReloadFrequency": "CONTROL",
+    "SHO_MOBILE_MAP_REGION": "CONTROL_PASSIVE_DISMISS",
+    "SHO_GoogleTileShadow_Mobile": "CONTROL",
+    "SHO_DESKTOP_SEARCH_BREAKPOINT": "CONTROL",
+    "SHO_MOBILE_PHOTOS_CAROUSEL": "CONTROL",
+    "SXP_MOBILE_MAP_PRIORITY": "CONTROL",
+    "VL_BDP_INDEPENDENCE_DAY_ENGAGEMENT_FOR_SALE": "TEST_REACT",
+    "SXP_CANADA": "CONTROL",
+    "SXP_REACT_SAVED_HOMES": "REACT",
+    "SHO_PARCEL_BOUNDARIES": "PARCEL_BOUNDARY_SERVICE",
+    "SHO_MOBILE_WEB_NAV_ADS": "AFTER_2ND",
+    "SHO_DESKTOP_COLLECTIONS_HOME_PAGE": "ENABLED",
+    "SRP_MWEB_ADS_VARIANTS": "VARIANT_B",
+    "SHO_DESKTOP_EXPOSED_FILTERS": "CONTROL",
+    "SXP_HDP_CONTINGENT": "ENABLED",
+    "SHO_BING_DYNAMIC_TILES": "DYNAMIC_TILES",
+    "SHO_SINGLE_AD_IN_FEED": "CONTROL",
+    "SHO_MapTiles": "CONTROL",
+    "VL_WOW_BDP_MWEB": "WOW_BDP",
+    "SHO_HOMEPAGE_COLLECTIONS_COUNT": "FOUR_COLLECTIONS",
+    "SHO_DESKTOP_NAV_AD_LOAD_ORDER": "EARLIER_AD_REQUEST",
+    "SHO_COLLECTIONS_ON_DESKTOP_SRP": "CONTROL",
+    "SHO_DESKTOP_PHOTO_CARDS": "PHOTO_CARDS_EARLY_BREAKPOINT",
+    "SHO_REACT_CONTAINER": "REACT_CONTAINER",
+    "SXP_REMOVE_HIDDEN_HOMES": "REMOVED",
+    "SHO_GoogleTileShadow_Desktop": "CONTROL",
+    "SHO_MobileOnTablets": "TABLET_EXPERIENCE",
+    "SHO_SearchResultExpansion": "ExpandGeo10AndPrice10",
+    "SHO_DESKTOP_COLLECTIONS_SEARCH_PAGE": "COLLECTIONS_BOTTOM",
+    "SHO_NATIVE_ADS": "AFTER_2ND",
+    "SHO_NAV_AD_BACKGROUND": "GRAY",
+    "SHO_Google_Transition": "SearchAndHDPWithAdds",
+    "SXP_KF_FILTERS_V2": "CONTROL",
+    "SHO_MobileListPageInit": "CONTROL",
+    "SHO_Map_Density": "CONTROL",
+    "SHO_STREETVIEW_LIST_CARDS": "CONTROL",
+    "SHO_LOT_LEVEL_AVAILABILITY": "LOTS_IN_LIST",
+    "SHO_ListSave": "SaveAndHideButton",
+    "SRP_KF_SCHOOLS_DESKTOP": "CONTROL",
+    "SXP_KINGFISHER_FILTERS": "P1_PHASE_1",
+    "SHO_VIDEO_WALKTHROUGH_TEXT": "NO_VIDEO_ICON",
+    "SHO_LIST_DESCRIPTION": "CONTROL_DISABLED",
+    "SXP_REACT_SAVE_SEARCH": "REACT",
+    "SXP_STREETVIEW_REQUEST_TYPE": "CONTROL",
+    "VL_RESPONSIVE_SRP_OPEN_FULL_PAGE": "OPEN_IN_LIGHTBOX",
+    "SHO_VIDEO_LIST_CARDS": "CONTROL",
+    "SHO_SRP_AUDIENCE_METRICS": "CONTROL",
+    "SHO_SEARCH_FALLBACK_REGIONS": "CONTROL",
+    "SHO_React_Mobile_Search_List": "REACT",
+    "SHO_REGION_AUTOCOMPLETE_RANKING": "RANK_BY_DISTANCE",
+    "SHO_COLLECTIONS_CAROUSEL_COUNT": "6_RESULTS",
+    "SHO_DESKTOP_MAP_LIST_RATIO": "SHOW_TOGGLE_TOP",
+    "SHO_SAVE_SEARCH_TEXT": "CONTROL",
+    "SHO_MWEB_HDP_TO_SEARCH": "SIMPLE_BACK",
+    "SXP_KF_SCHOOLS_MOBILE": "CONTROL",
+    "SHO_DESKTOP_SCHOOLS_CHANGE": "CONTROL",
+    "SHO_SEARCH_COOKIE_PERSISTENCE": "CONTROL",
+    "SHO_TabletSearchPhotos": "NO_ITERATE",
+    "SHO_MOBILE_PHOTOS": "PHOTO_HEIGHT_MEDIUM",
+    "SHO_COLLECTION_QUERY_FILTERS": "NO_CACHED_FILTERS",
+    "SHO_NETACUITY": "HTTP",
+    "SRP_DISABLE_NC_COMMUNITY_LAYER": "CONTROL",
+    "SHO_POI_TYPEAHEAD": "CONTROL",
+    "SHO_AUTOCOMPLETE_CHAR_COUNT": "CONTROL",
+    "SEOTEST__SHO_MAGIC_CARPET_SEO": "HDP_IN_LIGHTBOX",
+    "SHO_HOMES_LANDING_LISTINGS": "CONTROL",
+    "SXP_MAP_ON_LEFT": "ON",
+    "SHO_KEYWORD_MESSAGE": "NO_WARNING",
+    "SHO_DEFAULT_FILTER": "CONTROL",
+    "SXP_YUI": "CONTROL",
+    "SHO_MAP_TILE_COMBO_LOADING": "COMBO_LOADING",
+    "SXP_KINGFISHER_SCHOOL_SEARCH": "CONTROL",
+    "SHO_DISABLE_SSL_REDIRECT": "CONTROL",
+    "SHO_DESKTOP_LIST_RESULT_QUANTITY": "CONTROL",
+    "SHO_DECLUTTER_DISAMBIG": "CONTROL",
+    "SHO_MAGIC_CARPET": "SUPER_MAGIC_CARPET_GREEN",
+    "SHO_TOUCH_SCHOOLS": "SHO_TOUCH_SCHOOLS_CONTROL",
+    "SXP_CANADA_COUNTIES": "CONTROL",
+    "SHO_NARROW_VIEWPORT": "LIST_DEFAULT",
+    "SHO_LIGHTBOX_FLIPPERS": "CONTROL",
+    "ACT_FILTER_ON_LAND": "CONTROL",
+    "SHO_DESKTOP_RESULT_EXPANSION": "ENABLED",
+    "SHO_GA_MapPanEvent": "CONTROL_OFF",
+    "SHO_COLLECTIONS_ON_DESKTOP_HDP": "CONTROL",
+    "SHO_DEFAULT_SORT": "CONTROL",
+    "SHO_DescriptionOnList": "CONTROL",
+    "RE_ApplicationsFilter": "ON",
+    "SHO_COMMUTE": "CONTROL_DISABLED",
+    "HDP_SERVICE_RENT": "CONTROL",
+    "SHO_MAGIC_CARPET_SEO": "CONTROL",
+    "SHO_ATTAINABLE_HOUSING_FILTER": "FILTER_VISIBLE",
+    "SHO_SRP_DEFAULT_SORT": "DEFAULT_GRS",
+    "SEOTEST__SXP_REACT_FOOTER_DESKTOP": "ON",
+    "SXP_DelayJS": "AFTER_LOAD",
+    "SHO_React_Modal_Filters": "CONTROL",
+    "SHO_COMMUTE2": "CONTROL_DISABLED",
+    "SHO_SEARCH_COLLECTIONS_GHOST": "CONTROL",
+    "SHO_HDP_lightbox": "HDP_IN_LIGHTBOX",
+    "SHO_VIDEO_WALKTHROUGH_ICON": "CONTROL",
+    "SRP_DESKTOP_ADS_VARIANTS": "VARIANT_B",
+    "SXP_KF_SCHOOLS_DESKTOP": "CONTROL",
+    "SHO_NC_COUNTY_COLLECTIONS": "CONTROL",
+    "SHO_IEIPAD_MAPLIST": "CONTROL",
+    "SHO_ModernAddressLookup": "CONTROL",
+    "VL_WOW_BDP_DESKTOP": "CONTROL",
+    "SXP_Multifamily_Filter": "CONTROL",
+    "SXP_MAP_CONTROLS": "SIMPLIFIED",
+    "SEOTEST__SXP_RESPONSIVE_SRP": "CONTROL",
+    "SHO_MOBILE_EXPOSED_FILTERS": "EXPOSED_FILTERS_ENABLED",
+    "SXP_FOOTER": "RESPONSIVE_REACT",
+    "SXP_WOW_LIST_CARD": "WOW_LIST_CARD_AD_1DOT5",
+    "SHO_COLLECTIONS_ON_MWEB_HDP": "CONTROL",
+    "SHO_COLLECTIONS_ON_MWEB_SRP": "CONTROL",
+    "SHO_AAC_CONTEXT": "CONTROL",
+    "VL_BDP_INDEPENDENCE_DAY_ENGAGEMENT_NO_CONTACT": "TEST_REACT",
+    "SHO_LIST_INLINE_IMAGE_LOAD": "Inline",
+    "SHO_COLLECTIONS_CACHE": "REDIS",
+    "SHO_React_Mobile_Web_Search_Box": "REACT",
+    "SHO_PHOTOCARD_LAYOUT": "UP_AND_LEFT",
+    "SHO_React_Mobile_Web_Filters": "REACT_FILTERS_ACTION_BAR",
+    "SXP_GOOGLE_COLORS": "ENABLED",
+    "SHO_TABLET_SEARCH": "CONTROL_LIST_OR_MAP",
+    "SHO_HDPPreFetch": "CONTROL",
+    "SXP_RESPONSIVE_SRP": "RESPONSIVE_TWO_COL",
+    "SHO_ZIPCODES_IN_REGION_AUTOCOMPLETE": "INCLUDE_ZIPCODES",
+    "SHO_AUTOCOMPLETE_AUTOFILL": "ON",
+    "SHO_BUILDING_GROUPING": "CONTROL"
+    }
+}
